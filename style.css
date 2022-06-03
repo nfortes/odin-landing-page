@@ -39,9 +39,10 @@ a, .welcome .subtext {
     padding: 64px 240px;
     align-items: center;
     justify-content: space-between;
+    gap: 24px;
 }
 
-.intro {
+.intro, .information, .quotes {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -67,4 +68,32 @@ h1 {
 
 .welcome img {
     max-width: 500px;
+}
+
+h2 {
+    margin: 36px;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0px 256px;
+}
+
+.info-images img {
+    width: 175px;
+    border-radius: 25px;
+    border: 3px solid #3882F6;
+}
+
+.info-images {
+    margin-bottom: 72px;
+    color: #1F2937;
 }
